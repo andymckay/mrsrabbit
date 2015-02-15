@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Fertigo;
+    src: url(Fertigo_PRO.otf) format("opentype");
+}
+
+@font-face {
+    font-family: DroidSans;
+    src: url(DroidSans.ttf) format("truetype");
+}
+
+html {
+    overflow: scroll;
+}
+
+body {
+    margin: 0;
+    font-family: DroidSans;
+    color: #3e2827;
+    background-color: #ffffff;
+    line-height: 1.6em;
+    font-size: 18px;
+}
+
+article {
+   padding: 1em;
+}
+
+h1, h2 {
+    font-family: Fertigo;
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 :link, :visited {
+    text-decoration: none;
+    border: none;
+}
+
+hr {
+    clear: both;
+}
+
+hr.spacing {
+    padding-top: 5em;
+}
+
+cite {
+    display: block
+}
+
+sidebar {
+    float: left;
+    margin-right: 10px;
+    clear: both;
+}
+
+sidebar.stain {
+    width: 440px;
+}
+
+
+section {
+    padding-bottom: 1em;
+}
+
+img {
+    border: none;
+}
+
+hr.florished {
+    padding: 0;
+    border: none;
+    border-top: medium double #cccccc;
+    color: #cccccc;
+    text-align: center;
+}
+
+hr.florished:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1em;
+    padding: 0 0.25em;
+    background: #ffffff;
+}
+
+@media (max-width: 700px) {
+    sidebar.stain {
+        margin-right: 260px;
+    }
+
+@media (max-width: 400px) {
+    sidebar.be {
+        margin-right: 239px;
+    }
+}
+
+@media (max-width: 550px) {
+    sidebar.kispiox {
+        margin-right: 219px;
+    }
+}
+
