@@ -28,7 +28,10 @@ h1 {
 }
 
 #sub {
+    background-color: #515051;
     text-transform: uppercase;
+    padding-top: 1em;
+    color: white;
 }
 
 #sub div {
@@ -53,13 +56,15 @@ h1 {
 }
 
 #contacts {
+    background-color: #222222;
     text-transform: uppercase;
+    padding: 1em;
 }
 
 #contacts a {
     text-decoration: none;
     padding-bottom: 3em;
-    color: #222222
+    color: white;
 }
 
 @media (max-width: 650px) {
